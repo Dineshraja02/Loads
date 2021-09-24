@@ -1,0 +1,305 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+header{
+    position: sticky;
+    top: 0;
+}
+.primaryhead{
+   
+    text-align: right;
+    background: black ;
+    padding: 5px;
+       
+}
+.primaryhead a{
+    text-decoration:none;
+    color:rgb(171, 171, 172);
+    padding-left: 10px;
+    padding-right: 10px ;
+    display: inline-block;
+}
+.primaryhead a:hover{
+    color:#cce00e ;
+}
+.sechead{
+    text-align: right;
+    background:white ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+.sechead a {
+    text-decoration:none;
+    color:black;
+    padding-left: 20px;
+    padding-right: 20px ;
+    display: inline-block;
+    }
+.sechead a:hover{
+    color:#cce00e ;
+}
+.logo{
+    padding: 7px 8px ;
+    float: left;
+}
+.sechead button{
+    background-color:#cce00e;
+    padding: 10px;
+    border-radius: 2px;
+    text-shadow: black;
+    border: none;
+    margin-right: 30px;
+}
+.sechead button:hover{
+    background-color:#abbd0d ;
+}
+.backimage{
+    background-image: url(/Images/789385_2.jpg);
+    padding-top: 10px;
+    padding-bottom: 155px;
+    object-fit: cover;
+    
+}
+.imagetext{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+
+}
+.box{
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    margin-left: 100px;
+    border-radius: 3px;
+}
+.boxhead{
+    display: inline-block;
+    color: black;
+    }
+.boxhead a:hover{
+        color:#cce00e ;
+    }
+.boxhead a{
+    text-decoration: none;
+    padding-left: 60px;
+    color: rgb(0, 0, 0);
+ }
+ .boxtext{
+    padding-left: 60px;
+}
+.inputbox{
+    padding: 10px;
+    padding-right: 50px;
+    width: 50px;
+}
+.space{
+    padding: 3px;
+}
+.inputbox input{
+    width: 372px;
+    height: 35px;
+    background-color: rgb(221, 221, 221);
+    border: none;
+    border-radius: 2px;
+    }
+.inputbox button{
+    width: 372px;
+    height: 35px;
+    background-color:#cce00e;
+    border: none;
+    border-radius: 2px;
+}
+.inputbox button:hover{
+    background-color:#abbd0d ;
+}
+.parhead{
+    margin-left: 50px;
+}
+.selectop{
+    display: inline;
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 50px;
+    
+    }
+    .cards{
+        display: flex;
+    }
+    .container-fluid{
+        border-color: white;
+        max-width: 30rem;
+        border-radius: 0.5rem;
+        overflow: hidden;
+        box-shadow:3px 3px 10px 10px rgba(50,50,50,0.1);
+        margin-left: 100px;
+        padding-left: 0px;
+             
+    }
+    .container-fluid a{
+        color: black;
+        text-decoration: none;
+    }
+    .labelimage{
+        height: 20rem; 
+        object-fit: cover;    
+    }
+    .info{
+        padding-left: 15px;
+        padding-top: 20px;
+    }
+
+    
+.reason{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.features{
+    display: flex;
+    padding-right: 10px;
+    margin-bottom: 2rem;
+}
+.feature-container{
+    display: flex;
+    width: 50%;
+}
+.feature-image{
+    border-radius: 10px;
+    width: 12rem;
+}
+.app{
+    width: auto;
+    height: 300px;
+    margin-left: 50px;
+    display: inline;
+    
+}
+.apptext{
+    padding-top: 0px;
+    padding-left: 40px;
+}
+.buttonedit{
+    display: flex;
+}
+.app button#playstore{
+max-width: 98px;
+max-height: 38px;
+padding-left: 98px;
+padding-bottom: 38px;
+background-image: url(/Images/google\ play.png);
+border: none;
+border-radius: 4px;
+margin-left: 35px;
+}
+.app button#apple{
+    max-width: 98px;
+    max-height: 38px;
+    padding-left: 98px;
+    padding-bottom: 38px;
+    background-image: url(/Images/apple.png);
+    border: none;
+    border-radius: 4px;
+    margin-left: 10px;
+   }
+   .app button#window{
+    max-width: 98px;
+    max-height: 38px;
+    padding-left: 98px;
+    padding-bottom: 38px;
+    background-image: url(/Images/wind.png);
+    border: none;
+    border-radius: 4px;
+    margin-left: 10px;
+    margin-right:350px;
+   }
+   .app img{
+       padding-left: 100px;
+   }
+.helpcenter{
+    width: auto;
+    height:auto;
+    background-color:white;
+    color: black;
+    padding-left:50px;
+    display: flex;
+    text-align: left;
+    padding-inline-end: 20px;
+    padding-top: 20px;
+}
+.bodyend{
+    width: auto;
+    height: auto;
+    background-color:rgb(53, 52, 52);
+    padding-left:50px;
+    padding-top: 20px;
+    color: rgb(245, 244, 244);
+    padding-right: 50px;
+}
+.table.table-dark{
+    background-color: rgb(58, 58, 58);
+}
+.table.table-dark thead th:hover{
+
+      color: #cce00e;  
+}
+.table.table-dark tbody tr td a
+{
+ color: aliceblue;
+ font-size: 13px;
+ text-decoration: none;
+}
+.table.table-dark tbody tr td a:hover{
+ 
+ color: #cce00e;
+}
+
+.bodyend button#facebook{
+    width:30px;
+    height: 30px;
+    margin-left: 40px;
+    background-image: url(/Images/facebook.png);
+    border: none;
+    border-radius: 5px;
+}
+.bodyend button#insta{
+    width:30px;
+    height: 30px;
+    margin-left: 40px;
+    background-image: url(/Images/insta.png);
+    border: none;
+    border-radius: 5px;
+}
+.bodyend button#youtube{
+    width:30px;
+    height: 30px;
+    margin-left: 40px;
+    background-image: url(/Images/youtube.png);
+    border: none;
+    border-radius: 5px;
+}
+.bodyend button#twitter{
+    width:30px;
+    height: 30px;
+    margin-left: 40px;
+    background-image: url(/Images/twitter.png);
+    border: none;
+    border-radius: 5px;
+}
+.bodyend .discover p a{
+   padding-right: 50px;
+   padding-left: 20px;
+   color: aliceblue;
+}
+.bodyend .discover p a:hover{
+    color:#cce00e;
+}
+.bodyend .endlogo img{
+    width: 120px;
+    height: 40px;
+    border-radius: 30px;
+}
+.bodyend .endlogo p{
+    margin-left:800px;
+    size: 10px;
+}
